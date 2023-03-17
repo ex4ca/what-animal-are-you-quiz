@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Which housepet are you?</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id="mainQuiz">
+
+    <div id="header">
+        <h1> Quiz: Which housepet are you?</h1>
+        <img src="cat.jpg" height="200" width="200" alt="cat">
+        <img src="bunny.jpg" height="200" width="200" alt="bunny">
+        <img src="dog.jpg" height="200" width="250" alt="dog">
+        <img src="duck.jpg" height="200" width="200" alt="duck">
+        <h6>art by @cremechii on twitter</h6>
+    </div>
+
+    <form id="quizForm">
+
+        <p>How would you describe yourself around others?</p>
+        <label>
+            <input type="radio" id="q1r1" name="personality" value="1"> Only nice if I like them
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q1r4" name="personality" value="4"> Very chatty once you get to know me
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q1r3" name="personality" value="3"> Too shy to talk to anyone
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q1r2" name="personality" value="2"> Nice to everyone!
+        </label>
+        <br>
+
+        <p>How would you spend your ideal holiday?</p>
+        <label>
+            <input type="radio" id="q2r3" name="holiday" value="3"> Hang out with friends and watch some entertainment
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q2r4" name="holiday" value="4"> Play games and maybe do some yoga
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q2r1" name="holiday" value="1"> Eat, sleep, repeat
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q2r2" name="holiday" value="2"> Be active! Go on walks, play some sports etc.
+        </label>
+        <br>
+
+        <p>Complete this sentence: There's nothing better than...</p>
+        <label>
+            <input type="radio" id="q3r1" name="quote" value="1"> Sleep.
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q3r2" name="quote" value="2"> Friends!
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q3r3" name="quote" value="3"> TV
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q3r4" name="quote" value="4"> Games!
+        </label>
+        <br>
+
+        <p> The word that best describes you from this list would be... </p>
+        <label>
+            <input type="radio" id="q4r1" name="description" value="1"> Lazy
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q4r4" name="description" value="4"> Talkative
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q4r3" name="description" value="3"> Inattentive
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q4r2" name="description" value="2"> Active
+        </label>
+        <br>
+
+        <p>What's your favourite colour?</p>
+        <label>
+            <input type="radio" id="q5r2" name="colour" value="2"> I can't pick a favourite because I don't want the other colours to be sad :(
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q5r3" name="colour" value="3"> Pink !
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q5r4" name="colour" value="4"> I like all the colours on me!
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q5r1" name="colour" value="1"> Black. Like my soul...
+        </label>
+        <br>
+
+        <p>Where do you feel the most home?</p>
+        <label>
+            <input type="radio" id="q6r1" name="home" value="1"> My bed.
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q6r3" name="home" value="3"> My room <3
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q6r2" name="home" value="2"> The park!
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q6r4" name="home" value="4"> Doing something fun... like skydiving!
+        </label>
+        <br>
+
+        <p>If a stranger asked for help, what would you do?</p>
+        <label>
+            <input type="radio" id="q7r2" name="help" value="2"> I'd help them straight away, of course.
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q7r3" name="help" value="3"> It would depend on what they need help with!
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q7r1" name="help" value="1"> They can figure it out by themselves.
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q7r4" name="help" value="4"> I'd call all my friends, so we can help them together!
+        </label>
+        <br>
+
+        <p>Name one thing you can not live without.</p>
+        <label>
+            <input type="radio" id="q8r3" name="live" value="3"> Entertainnmeennnttt
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q8r1" name="live" value="1"> Food? Water?
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q8r2" name="live" value="2"> My loved ones.
+        </label>
+        <br>
+        <label>
+            <input type="radio" id="q8r4" name="live" value="4"> My voice. How else would I be able to talk to everyone?
+        </label>
+        <br>
+        <br>
+
+        <button type="submit" value="Submit">Submit</button>
+
+    </form>
+
+    <p id="answer"></p>
+    <p id="answer2"></p>
+
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
